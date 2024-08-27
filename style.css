@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: hsl(0, 36%, 80%);
+  --background-color: hsl(0, 100%, 98%);
+}
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin: 0.8rem;
+  background-color: var(--background-color);
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+}
+.main-img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.left-grid {
+  padding: 6rem 0 0 3rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+}
+.logo {
+  padding: 2rem 0 0 4rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.8rem;
+  line-height: 1.2;
+}
+p {
+  color: var(--text-color);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+span {
+  color: var(--text-color);
+}
+input {
+  padding: 1rem;
+  padding-right: 7rem;
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+  width: 100%;
+  outline: none;
+}
+button {
+  padding: 0.8rem 2.8rem;
+  border-radius: 20px;
+  border: 0;
+  position: absolute;
+  right: 0;
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
+}
+button img {
+  width: 1.2rem;
+  height: 1.7rem;
+}
+.input-button {
+  position: relative;
+  display: inline-block;
+}
+.display {
+  color: red;
+}
+.addInput {
+  border: 1px solid red;
+  background-image: url(./images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 15rem center;
+  background-size: 2rem;
+}
