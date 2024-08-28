@@ -7,11 +7,10 @@ function clicked() {
     inputs.value = "";
     inputs.classList.remove("addInput");
     document.querySelector(".js-display").innerHTML = "";
+    error.style.display = "none";
   } else {
     document.querySelector(".js-display").innerHTML =
       "Please provide a valid email!";
-    // const errorImg = document.createElement("img");
-    // errorImg.src = "./images/icon-error.svg";
     inputs.classList.add("addInput");
     error.style.display = "inline-block";
   }
