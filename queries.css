@@ -10,7 +10,7 @@
     max-width: 60rem;
   }
 }
-@media (max-width: 36em) {
+@media (max-width: 36.5em) {
   .logo {
     width: 15rem;
   }
@@ -21,7 +21,7 @@
     line-height: 1.1;
   }
 }
-@media (max-width: 34em) {
+@media (max-width: 34.5em) {
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
