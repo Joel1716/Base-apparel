@@ -72,12 +72,22 @@ input {
   width: 100%;
   outline: none;
 }
+.error-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.error {
+  display: none;
+  width: 2rem;
+}
 button {
   padding: 0.8rem 2.8rem;
   border-radius: 20px;
   border: 0;
-  position: absolute;
-  right: 0;
   background-image: linear-gradient(
     to right,
     hsl(0, 80%, 86%),
@@ -97,8 +107,4 @@ button img {
 }
 .addInput {
   border: 1px solid red;
-  background-image: url(./images/icon-error.svg);
-  background-repeat: no-repeat;
-  background-position: 15rem center;
-  background-size: 2rem;
 }
