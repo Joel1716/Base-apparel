@@ -104,6 +104,8 @@ button img {
 }
 .display {
   color: red;
+  text-align: center;
+  margin-top: 0.4rem;
 }
 .addInput {
   border: 1px solid red;
