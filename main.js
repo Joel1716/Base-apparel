@@ -1,5 +1,6 @@
 const inputs = document.querySelector("input");
 const buttonEl = document.querySelector("button");
+const error = document.querySelector(".error");
 buttonEl.addEventListener("click", clicked);
 function clicked() {
   if (inputs.validity.valid) {
@@ -12,6 +13,7 @@ function clicked() {
     // const errorImg = document.createElement("img");
     // errorImg.src = "./images/icon-error.svg";
     inputs.classList.add("addInput");
+    error.style.display = "inline-block";
   }
 }
 /// When you click Enter
