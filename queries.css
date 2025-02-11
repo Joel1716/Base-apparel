@@ -1,6 +1,6 @@
 @media (max-width: 39em) {
   .left-grid {
-    padding: 3rem 0 0 2rem;
+    padding: 7rem 0 0 2rem;
   }
   .logo {
     padding: 1rem 0 0 2rem;
@@ -37,7 +37,7 @@
     height: 40%;
     grid-row: 2/3;
     align-self: start;
-    padding: 5rem 2rem 3rem 2rem;
+    padding: 5rem 1rem 3rem 2rem;
     text-align: center;
     padding-top: 0;
   }
